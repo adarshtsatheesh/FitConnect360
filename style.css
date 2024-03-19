@@ -1,0 +1,336 @@
+/* Truculenta font link */
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+:root{
+
+    --deep-blue:#0044CC;
+    --vibrant-green: #00AA55;
+    --light-grey:#CCCCCC;
+    --bright-yellow: #FFFF00;
+   
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+
+
+/* header section  */
+
+
+header{
+    align-items: center;
+    position: fixed;
+    width: 100%; /* Take full width of the viewport */
+    background-color: rgba(0,0,0,0.1); /* Transparent background */
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+    transition: background-color 0.3s; /* Smooth transition effect */
+    padding: 10px 20px; 
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .navbar-brand img{
+    height: 40px;
+}
+header .navbar-brand{
+    font-size: 25px;
+    color: aqua;
+}
+
+header .nav-link{
+    font-size: 16px;
+    color: var(--light-grey);
+
+}
+
+
+
+
+
+/* hero section starts */
+
+@media (max-width: 576px) {
+    .hero {
+      padding-left: 20px; /* Reduce left padding for smaller screens */
+      padding-right: 20px; /* Also reduce right padding for consistency */
+    }
+  }
+  
+
+.hero .container h1 {
+    color: #f27d2c;
+    font-size: 5rem; /* Adjust the font size for larger screens */
+}
+
+@media (max-width: 768px) {
+  .hero .container h1 {
+    font-size: 3.5rem; /* Reduce the font size for medium screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .container h1 {
+    font-size: 2.5rem; /* Further reduce the font size for small screens */
+  }
+}
+
+
+.hero{
+
+
+    background-image: url('/img/hero/pexels-victor-freitas-2261477.jpg');
+
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optionally, set background attachment to fixed for a parallax effect */
+    background-attachment: fixed;
+
+    /* Add other styles such as height, padding, etc. to the hero section */
+    height: 100vh; /* 100% of viewport height */
+    padding: 20px; /* Example padding */
+}
+.hero .container{
+
+    /* center text horizontally */
+    margin-top: 200px;
+    text-align: left;
+    height: 100vh; /* 100% of viewport height */
+    padding: 50px;
+
+}
+
+.hero .container h1{
+    color: #f27d2c;
+    font-size: 70px;
+}
+
+.hero .container h1 span{
+    color: #f63c38;
+    font-family: 'Pramukh Rounded', sans-serif;
+}
+
+
+.hero .container p{
+    color: white;
+}
+
+
+
+/* hero section ends */
+
+
+/* about section starts */
+.about{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    padding: 50px; 
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: blue;
+    color: white;
+
+}
+.nav-tabs{
+
+    border: none !important;
+}
+
+.about .container .row .heading h1{
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 50px;
+
+}
+
+
+
+/* about section ends */
+
+
+/* membership section starts */
+
+
+
+.membership{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto; 
+    padding: 50px; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.membership .container .cards{
+    padding: 70px;
+
+}
+
+.membership .container .card{
+    padding: 20px;
+}
+.membership .container .card-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.membership .container i {
+    font-size: 80px;
+}
+
+.membership .container p i {
+    font-size: 20px;
+    padding: 0;
+    padding-right: 5px;
+}
+
+.membership .container a .btn{
+    justify-content: center;
+}
+
+.membership .container .heading{
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 50px;
+
+}
+
+/* membership section ends */
+
+
+
+/* contact section starts */
+
+.contact{
+    background-color: white;
+}
+
+.contact .row form{
+
+    background-color: #e9edf0;
+    padding: 30px;
+
+}
+
+.contact .row form h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+.contact .row form .inputBox p{
+
+    padding-top: 20px;
+
+
+}
+
+.contact .row form .inputBox input{
+
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 20px;
+    text-transform: none;
+    background: #ffffff;
+}
+
+.contact .row form .btn {
+    margin-top: 1rem;
+    padding: .9rem 2.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #3251b5;
+    cursor: pointer;
+
+}
+
+
+
+.contact .row .map{
+
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact .row .heading h1{
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    padding: 50px;
+    text-transform: uppercase;
+
+}
+/* contact section ends */
+
+
+/* footer section starts */
+.footer{
+
+    height: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 100px 50px 50px 20px;
+    text-align: left;
+}
+.footer .row .links-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer a {
+    color: black;
+    font-weight: 500;
+}
+
+.footer .row .columns{
+
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.footer .row .columns h3{
+
+    font-weight: bold;
+}
+.footer .row .details {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.footer .row .details .address{
+
+    white-space: pre-line;
+}
+
+.footer .row .details .socialmedia-icons{
+    font-size: 25px;
+}
+
+.footer .container .creator{
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* footer section ends */
